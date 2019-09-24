@@ -1,0 +1,31 @@
+.rooms {
+  width: 200px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.form-object {
+  position: absolute;
+  right: 250px;
+  width: 200px;
+}
+
+.pagination {
+  display: flex;
+  padding-left: 0;
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: lightgray;
+    list-style: none;
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+  }
+}
